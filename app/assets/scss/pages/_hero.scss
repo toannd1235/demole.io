@@ -136,7 +136,7 @@
       width: 64px;
       height: 64px;
       background-color: $white;
-      @include mw-768 {
+      @include mw-920 {
         width: 30px;
         height: 30px;
         bottom: 0;
@@ -144,7 +144,7 @@
     }
     .slick-prev {
       left: 30%;
-      @include mw-768 {
+      @include mw-920 {
        right: -30%;
        left: auto;
       }
@@ -154,7 +154,7 @@
         position: absolute;
         left: 14px;
         top: 15px;
-        @include mw-768 {
+        @include mw-920 {
           left: 0;
           top: 0;
         }
@@ -162,7 +162,7 @@
     }
     .slick-next {
       left: calc(30% +120px);
-      @include mw-768 {
+      @include mw-920 {
         right: -50%;
         left: auto;
        }
@@ -172,7 +172,7 @@
         position: absolute;
         right: 19px;
         top: 15px;
-        @include mw-768 {
+        @include mw-920 {
           right: 0;
           top: 0;
         }
@@ -188,7 +188,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: row-reverse;
-    @include mw-768 {
+    @include mw-920 {
       justify-content: start;
     }
   }
