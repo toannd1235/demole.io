@@ -47,10 +47,10 @@ $(window).scroll(function () {
     $(".header-desktop").removeClass("header-bg");
   }
 });
-// $(window).scroll(function () {
-//   if ($(window).scrollTop() >= 10) {
-//     $(".header-mobile").addClass("header-bg");
-//   } else {
-//     $(".header-mobile").removeClass("header-bg");
-//   }
-// });
+$(window).scroll(function () {
+  if ($(window).scrollTop() >= 10) {
+    $(".header-mobile").addClass("header-bg");
+  } else {
+    $(".header-mobile").removeClass("header-bg");
+  }
+});
