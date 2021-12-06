@@ -372,6 +372,7 @@
   position: relative;
   min-height: 892px;
   padding-bottom: 300px;
+  overflow: hidden;
   @include mw-768 {
     display: block;
   }
