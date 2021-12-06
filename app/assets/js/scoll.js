@@ -21,19 +21,19 @@ $(document).ready(function () {
   });
 });
 
-$(window)
-  .scroll(function () {
-    var scrollDistance = $(window).scrollTop();
+// $(window)
+//   .scroll(function () {
+//     var scrollDistance = $(window).scrollTop();
 
-    // Assign active class to nav links while scolling
-    $(".section").each(function (i) {
-      if ($(this).position().top <= scrollDistance) {
-        $(".navigation a.active").removeClass("active");
-        $(".navigation a").eq(i).addClass("active");
-      }
-    });
-  })
-  .scroll();
+//     // Assign active class to nav links while scolling
+//     $(".section").each(function (i) {
+//       if ($(this).position().top <= scrollDistance) {
+//         $(".navigation a.active").removeClass("active");
+//         $(".navigation a").eq(i).addClass("active");
+//       }
+//     });
+//   })
+//   .scroll();
 
 $(window).scroll(function () {
   if ($(window).scrollTop() <= 90) {
