@@ -1,0 +1,40 @@
+.btn {
+  display: flex;
+  font-weight: 300;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  user-select: none;
+  border: none;
+  padding: 0;
+  border-radius: 0;
+  background-color: transparent;
+  color: #fff;
+  @extend .tran;
+  cursor: pointer;
+  &--buy {
+    background: linear-gradient(89.76deg, #7003FA 1.03%, #c567fe 99.79%);
+    padding: 5px 25px;
+    border-radius: 5px;
+    &:hover {
+      color: #fff;
+      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    }
+  }
+  &--register {
+    background: linear-gradient(89.76deg, #7003FA 1.03%, #c567fe 99.79%);
+    padding: 5px 24px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 150px;
+  }
+}
+.status {
+  padding: 5px 25px;
+  border-radius: 5px;
+  display: inline-block;
+  &--hight {
+    background-color: #e5f3e9;
+    color: #50b06c;
+  }
+}
