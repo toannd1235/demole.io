@@ -351,6 +351,7 @@
   }
   .bg-line {
     position: absolute;
+    z-index: -1;
     @include mw-650 {
       display: none;
     }
