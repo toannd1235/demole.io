@@ -1,7 +1,7 @@
 .hero {
   position: relative;
   background-color: #000;
-  background-image: url(/assets/img/intro/1.jpg);
+  background-image: url(/test/assets/img/intro/1.jpg);
   background-size: cover;
   height: 100vh;
   min-height: 900px;
@@ -191,7 +191,7 @@
 .intro {
   position: relative;
   // background-color: #000;
-  background-image: url(/assets/img/intro/bg.svg);
+  background-image: url(/test/assets/img/intro/bg.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom right;
@@ -254,7 +254,7 @@
 }
 .feature {
   padding: 140px 0;
-  background-image: url(/assets/img/feature/bg.svg);
+  background-image: url(/test/assets/img/feature/bg.svg);
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: -200px;
@@ -299,14 +299,14 @@
 }
 .overview {
   // margin-top: -50px;
-  background-image: url(/assets/img/overview/bg.png);
+  background-image: url(/test/assets/img/overview/bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
   padding-bottom: 50px;
   position: relative;
   @include mw-650 {
-    background-image: url(/assets/img/overview/bg-1.png);
+    background-image: url(/test/assets/img/overview/bg-1.png);
     background-size: contain;
   }
   img {
@@ -354,7 +354,7 @@
   }
 }
 .entities {
-  background-image: url(/assets/img/Entities/Entities.svg);
+  background-image: url(/test/assets/img/Entities/Entities.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;

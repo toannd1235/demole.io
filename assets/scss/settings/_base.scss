@@ -3,21 +3,21 @@
 
 @font-face {
   font-family: "Magistral";
-  src: url(/assets/fonts/OTF/MagistralBook.otf);
+  src: url(/test/assets/fonts/OTF/MagistralBook.otf);
 }
 @font-face {
   font-family: "Magistral";
-  src: url(/assets/fonts/OTF/MagistralBold.otf);
+  src: url(/test/assets/fonts/OTF/MagistralBold.otf);
   font-weight: 700;
 }
 @font-face {
   font-family: "Magistral";
-  src: url(/assets/fonts/OTF/MagistralExtraBold.otf);
+  src: url(/test/assets/fonts/OTF/MagistralExtraBold.otf);
   font-weight: 900;
 }
 @font-face {
   font-family: "Magistral";
-  src: url(/assets/fonts/OTF/MagistralMedium.otf);
+  src: url(/test/assets/fonts/OTF/MagistralMedium.otf);
   font-weight: 500;
 }
 //font
@@ -41,7 +41,7 @@ body {
   &::before {
     content: "";
     position: absolute;
-    background: url(/assets/img/grid_transparent_tile.png);
+    background: url(/test/assets/img/grid_transparent_tile.png);
     left: 0;
     right: 0;
     background-size: 180px;
