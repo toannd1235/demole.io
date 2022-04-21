@@ -3,16 +3,21 @@
 
 @font-face {
   font-family: "Magistral";
-  src: url(/test/assets/fonts/OTF/MagistralBook.otf);
+  src: url(/assets/fonts/OTF/MagistralBook.otf);
 }
 @font-face {
   font-family: "Magistral";
-  src: url(/test/assets/fonts/OTF/MagistralBold.otf);
+  src: url(/assets/fonts/OTF/MagistralBold.otf);
   font-weight: 700;
 }
 @font-face {
   font-family: "Magistral";
-  src: url(/test/assets/fonts/OTF/MagistralMedium.otf);
+  src: url(/assets/fonts/OTF/MagistralExtraBold.otf);
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Magistral";
+  src: url(/assets/fonts/OTF/MagistralMedium.otf);
   font-weight: 500;
 }
 //font
@@ -21,11 +26,11 @@
 }
 body {
   font-family: "Magistral", sans-serif;
-  color: #fff;
+  color: #333;
   font-size: 16px;
   overflow-x: hidden;
   scroll-behavior: smooth;
-  background-color: #1b1f2a;
+  background-color: #F6FBFF;
   position: relative;
   @include mw-768 {
     background-image: none;
@@ -36,7 +41,7 @@ body {
   &::before {
     content: "";
     position: absolute;
-    background: url(/test/assets/img/grid_transparent_tile.png);
+    background: url(/assets/img/grid_transparent_tile.png);
     left: 0;
     right: 0;
     background-size: 180px;
@@ -52,7 +57,7 @@ section {
   scroll-behavior: smooth;
 }
 .container {
-  max-width: 1350px;
+  max-width: 1450px;
   @include mw-768 {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -78,6 +83,9 @@ section {
     display: block !important;
   }
 }
+section{
+  overflow: hidden;
+}
 .btn {
   &:focus {
     outline: none;
@@ -102,8 +110,9 @@ a {
     text-decoration: none;
   }
 }
-
-img{
-  width: 100%;
-  height: 100%;
+.img{
+  img{
+    width: 100%;
+    height: 100%;
+  }
 }
