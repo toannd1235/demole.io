@@ -5,6 +5,9 @@
   background-size: cover;
   height: 100vh;
   min-height: 900px;
+  @include mw-650 {
+    background-position: center;
+  }
   .video {
     position: absolute;
     width: 100%;
